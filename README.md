@@ -49,8 +49,6 @@ eksctl create cluster \
 --nodes 3 \
 --nodes-min 1 \
 --nodes-max 4 \
---ssh-access \
---ssh-public-key taodai_global_virginia \
 --managed
 ```
 ### Retrive Amazon EKS Cluster kubectl contexts
